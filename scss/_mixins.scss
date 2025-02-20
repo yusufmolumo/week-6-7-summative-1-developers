@@ -1,7 +1,7 @@
 @mixin backdrop-blur {
     background-color: $background-color;
     -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(10px);
   }
   
   @mixin gradient-text($gradient: $gradient-text) {
